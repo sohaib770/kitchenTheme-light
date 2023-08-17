@@ -1,0 +1,93 @@
+.primaryColor{
+  color:#DF3F00;
+}
+
+.primaryBackgroundColor{
+  background-color:#DF3F00;
+}
+
+.secondaryColor{
+  color:#666666;
+}
+
+.primaryButton{
+  border: 1px solid #DF3F00;
+  background-color: #DF3F00;
+  color:#DF3F00;
+}
+
+.primaryButton:hover{
+  border: 1px solid white;
+  color:#DF3F00;
+  background-color: #DF3F00;
+}
+
+.primaryFont{
+  font-family: Forum;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.h2 {
+  font-size: 48px;
+  line-height: 53px;
+  font-family: "Forum", cursive;
+  font-weight: 400;
+}
+
+.h1 {
+  font-size: 100px;
+  font-family: "Forum", cursive;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.h3{
+  font-size: 27px;
+  line-height: 35px;
+}
+
+.h4{
+  font-size: 27px;
+  line-height: 45px;
+}
+
+.cursorPointer{
+  cursor: pointer;
+}
+
+.dotBorder {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  border-bottom: 1px dashed;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 40px;
+  }
+  .h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}

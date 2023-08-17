@@ -1,0 +1,12 @@
+.mainContainer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.chefImage {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+}
